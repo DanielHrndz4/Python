@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Universo</title>
+</head>
+<body>
+    <button onclick="cambiarTitulo()">Cambiar</button> <button onclick="cambiarTitulo2()">Cambiar</button>
+    <p id="titulo">Introduction a HTML con Python</p>
+    <script>
+        function cambiarTitulo() {
+            document.getElementById("titulo").innerHTML = 'Introduccion Python web';
+        }
+        function cambiarTitulo2() {
+            document.getElementById("titulo").innerHTML = 'Introduction a HTML con Python';
+        }
+    </script>
+</body>
+</html>

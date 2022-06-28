@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+#respuesta{
+    border: 1px solid black;
+    height: 200px;
+    overflow: auto;
+    background-color: gray;
+}

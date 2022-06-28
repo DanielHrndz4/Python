@@ -1,0 +1,37 @@
+body{
+    background-color: gray; 
+}
+table{
+    margin:auto;
+    width: 50%;
+    margin-top:50px;
+    height: 400px;
+    background:linear-gradient(to right, #1abc9c,#9b59b6);
+    border-radius:2%;
+    padding: 10px;
+    box-shadow: 2px 2px 2px ;
+    text-align: center;
+    font-weight: bold;
+}
+td{
+    box-shadow: 2px 2px 2px;
+    padding:7px;
+}
+#titulo{
+    padding: 0;
+    margin: 0;
+}
+#topping ,#sauce ,#name1 ,#extras{
+    text-align: left;
+    width: 60%;
+}
+#comentario{
+    width: 90%;
+    margin:auto;
+    margin-top:7px;
+    margin-bottom: 7px;
+}
+#enviar{
+    border-radius: 5px;
+}
+

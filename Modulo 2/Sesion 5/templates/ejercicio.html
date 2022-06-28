@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/estilo/app.css">
+</head>
+<body>
+    <h1>Ejercicio 1 con JINJA2</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Edad</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for u in usuarios %}
+            <tr>
+                <td>{{u[0]}}</td> 
+                <td>{{u[1]}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+

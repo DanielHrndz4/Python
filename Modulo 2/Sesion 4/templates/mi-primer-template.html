@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Mi, initial-scale=1.0">
+    <title>Mi Primer Template</title>
+</head>
+<body>
+    <h1>Mi primer template con Jinja2</h1>
+
+    <h2>Hola {{nombre}} {{apellido}}</h2>
+    <h2><u>Hola {{nombre + ' ' + apellido}}</u></h2>
+    
+    <!-- <h2 id="saludo">Hola Daniel Hernandez Saludo desde JINJA2</h2> -->
+    <ul>
+        {% for u in usuarios %}
+          {% if u=='jonathan' %}
+            <li><u>{{u}}</u></li>
+          {% else %}
+          <li>{{u}}</li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>

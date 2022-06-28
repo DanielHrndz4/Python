@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Modulo 2/Sesion 2/ejemplo.css">
+    <title>Pizza Shop 2.0</title>
+    
+</head>
+<body>
+    <table>
+        <form method="get">
+        <thead>
+            <tr>
+                <td colspan="2"><h1 id="titulo">Pizza Shop 2.0</h1></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td id="name1"><input type="text" name="name" id="name" placeholder="Digite su nombre" required></td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td id="topping"><input type="radio" name="topping" id="supreme">Supreme <br>
+                    <input type="radio" name="topping" id="vegetarian">Vegetarian <br>
+                    <input type="radio" name="topping" id="hawaiian">Hawaiian <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td id="sauce">
+                    <select name="sauce" id="sauce">
+                        <option value="T">Tomato</option>
+                        <option value="B">Barbeque</option>
+                        <option value="M">Mayonnaise</option>
+                        <option value="S">Secret Sauce</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td id="extras">
+                    <input type="checkbox" name="extra chesse" id="extra chesse">Extra Chesse
+                    <input type="checkbox" name="gluten" id="gluten">Gluten Free Base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Delivery Instructions: <br>
+                    <textarea name="comentario" id="comentario" cols="50" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Send my Order" id="enviar"></td>
+            </tr>
+            
+        </tbody>
+    </form>
+    </table>
+</body>
+</html>
